@@ -1,7 +1,7 @@
 import redot.tweakfabric.gradle.MappingType
 
 plugins {
-    id 'redot.tweakfabric.plugin' version '1.0.4-SNAPSHOT'
+    id 'redot.tweakfabric.plugin' version '1.0.3'
     id 'io.freefair.lombok' version '9.5.0'
 }
 
