@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        maven { url = 'https://repo.zenithstudios.dev/artifactory/tweakfabric-plugin' }
+        maven { name = 'Fabric'; url = 'https://maven.fabricmc.net/' }
+        maven { name = 'TweakSuite'; url = uri 'https://repo.zenithstudios.dev/artifactory/tweaksuite' }
+        mavenCentral()
+    }
+}
+rootProject.name = 'tweakfabric-template'
